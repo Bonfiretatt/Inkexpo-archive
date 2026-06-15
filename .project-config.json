@@ -1,0 +1,43 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://3ByxwEoYqsHDkkn.bbe4a77da8c7:W16sOx64RqCfF1i9kmNO@gateway03.us-east-1.prod.aws.tidbcloud.com:4000/E3rgpKWXof9Yw49kPbKvwi?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663510185811/E3rgpKWXof9Yw49kPbKvwi",
+    "access_key_id": "ASIAZV3A2ECZD5XBF275",
+    "secret_access_key": "nhmCjmAXsYWOjwG8HwWJmEDKxUa0TMDcnWowGwtm",
+    "session_token": "IQoJb3JpZ2luX2VjEJP//////////wEaCXVzLWVhc3QtMSJHMEUCIH7BIJ96t4v/6f1Pq8VpNUKicCE6vrOil7Qyk9j7/v6gAiEA0ApEaG1BumYSPsa18VcLrdcS/Mya5u2Lvp9PQPmvjosq9gMIWxAEGgw2NjUzODYwOTg4NjYiDCBuRoMoK8NkjZk/2CrTA4bikl9jlcyKNTLFTMn3gGDikf6jRthmg6qyNOZbdcLV9HTUtWU6g9GjH5nf1WhOZ6JUSEOrFymSsn24tXQ1EojWXjLzIWq5wm+ZAxS+Shz9SwANud5EzKjNgAIGCaBwAFsdRvaTEeAizNSubHxMigvMzMRJ1sVCyB40ORuhx6r8OJQ08TQNACY82ywpE7VomzE+BBNVHYVGQ8tXjw2RRNjY8waI7vGgWGNpvh5keb42R9410FK2VhuDkuooSB08859Dj2i0nvsPe9mfQSrGKtdj8j/SLmWjU0Pk81t0W2BOQDJI5pI+ULeSlRWqQeXkGLI34yz/7KNK8QmF89Y9e3rJHnGwTe0xiY+MAQ9ePOBS2vgAKlkUi47kdhL0ALCHHKRyQwJKOLPDz3ESqAWGnbCuBQf3WmnhSTrzYLRSkKcOGwb8B1z/YN4n9ObsOYk3WvocQ9YWQEg+hhOeXdsb15dzoFbqqMcHYPNnb3fhxb1z8KBySWQspZCzmXlit60EJPVH3bbg8Q+Z5mDrBclxOoi84W0AKcierRd7542XGQA540SdXFrU1NC9iD9sEC+b1pq75x3wfblThx5ejzJirqx+2nw+KzpuQnPvXizstKxJWKmUMJWev9EGOp0BQR/9s4oqwqZQoYttBnV5RDSg10ZmR8wHLF/YJkoemSh3nu4kLaZzIUDBMzAuGXvR6ESG4TGiGGoY74OJzFIIvTzkuY/tKNAEOWMJw/ycMuOAe+o2qMTVVIxM7oenZIvZgtgR1qXydQ68R+vGqWhnDsXedCA6hPGMbgVyMuH1rpGaK9OXqPHYCZI5NfYOl8gElYBgJmuV5wwToa/Bpg==",
+    "expiration": "2026-06-15T22:08:21.000Z"
+  },
+  "name": "inkexpo",
+  "path": "/home/ubuntu/inkexpo",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "E7CKxd2Q7xj8989sPWp6eY",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "nMVprx3rdB9MGbUW8d4psu",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "火 篝",
+    "OWNER_OPEN_ID": "itfhdrv6m2wXwBfTYqKvrt",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "6abd2602-f92f-4fa2-83c4-da3326a6f88b",
+    "VITE_APP_ID": "E3rgpKWXof9Yw49kPbKvwi",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "InkExpo - 紋身藝術家推廣平台",
+    "VITE_FRONTEND_FORGE_API_KEY": "aCQ5Mxm8eXYGpiCGbMnMU7",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}
